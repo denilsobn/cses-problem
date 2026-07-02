@@ -11,8 +11,7 @@ int main() {
  
     for (int i=0; i<n; i++) cin >> nums[i];
  
-    vector<ll> sub(n);
-    map<ll, ll> freq;
+    map<ll, ll> freq; // quantos indices tem aquele resto
     freq[0] = 1;
  
     ll ans = 0, sum=0;
